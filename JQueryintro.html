@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome to JQuery!!</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("button").click(function(){
+                $("#stuff").toggle();
+            });
+        });
+
+    </script>
+</head>
+<body>
+<!--
+    $ -> All things JQuery
+-->
+<div id="stuff">Pineapple, laundry basket, water heater, apple</div>
+<button>Click Me!</button>
+
+
+</body>
+</html>
